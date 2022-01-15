@@ -1,3 +1,33 @@
 h1, p {
   font-family: Lato;
 }
+.link{
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ text-decoration: none;
+ border : 1px solid ;
+ color: white;
+ background-color: blue;
+ border-radius: 5px;
+}
+.link:hover{
+  background-color: forestgreen;
+}
+.result{
+  background-color:gold;
+  border-radius: 999px;
+}
+.result1{
+  background-color: rgb(255, 38, 0);
+  color: white;
+  border-radius: 999px;
+}
+.result2{
+  background-color: black;
+  color: white;
+  border-radius: 999px;
+}
+span{
+ margin-left: 170px;
+}
